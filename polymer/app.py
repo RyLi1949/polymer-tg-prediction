@@ -29,6 +29,6 @@ demo=gr.Interface(
     inputs=gr.Textbox(label="SMILES",placeholder="*CC(*)c1ccccc1"),
     outputs=[gr.Textbox(label="Tg"),gr.Image(label="Structure")],
     title="Polymer Tg Predictor",
-    examples=["*CC(*)c1ccccc1","*CC(*)C(=O)OC","*CC*"]
+    examples=["*CC(*)c1ccccc1","*CC(*)C(=O)OC","*CC*","O=C(Oc1ccc(C)cc1)Oc2ccc(C)cc2"]
 )
 demo.launch()
