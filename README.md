@@ -1,1 +1,0 @@
-# polymer-tg-prediction
